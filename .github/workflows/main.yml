@@ -46,8 +46,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
+          password: ${{ secrets.SSH_PASSWORD }}
           script: |
             cd /root/projects/
             docker compose pull tg_bot
