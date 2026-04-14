@@ -1,4 +1,4 @@
-# Проект  count_bot 🤖
+# Проект  count_bot 🤖 [![CI/CD](https://github.com/aslan-py/count-bot/actions/workflows/main.yaml/badge.svg)](https://github.com/aslan-py/count-bot/actions/workflows/main.yaml)
 Телеграм-бот для удобного учета личных финансов. Сохраняет в Базу Данных статью затрат,
 категорию затрат и стоимость.
 

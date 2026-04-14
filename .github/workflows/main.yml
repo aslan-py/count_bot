@@ -51,6 +51,7 @@ jobs:
             cd /root/projects/
             docker compose pull tg_bot
             docker compose up -d tg_bot
+            docker image prune -af
   send_message:
     runs-on: ubuntu-latest
     needs: deploy
