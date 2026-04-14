@@ -1,0 +1,12 @@
+__pycache__/
+venv/
+.env
+.mypy_cache
+.ruff_cache
+tests/
+gg.py
+.VSCodeCounter
+logs
+count_bot.sqlite
+.dockerignore
+Dockerfile
