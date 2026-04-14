@@ -9,4 +9,3 @@ gg.py
 logs
 count_bot.sqlite
 .dockerignore
-Dockerfile
